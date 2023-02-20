@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+.img {
+    display: flex;
+    box-sizing: border-box;
+    width: auto;
+    height: 1000px;
+    background-size: contain;
+    background-image: url(../ford.jpg);
+    background-repeat: no-repeat;
+}
+
+.gradient {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+background: #834d9b;
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
+    /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #834d9b, #d04ed6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ukraine {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #004ff9, #fff94c);
+    box-shadow: -30px 0 10px 10px linear-gradient(to right, #004ff9, #fff94c);
+}
+body {
+ display: block;
+ box-sizing: border-box;
+}
+.container {
+    display: flex;
+    width: 80%;
+    height: 75px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 0;
+    justify-content: space-between;
+}
+.navlist {
+    display: flex;
+}
+.navitem {
+    display: flex;
+    align-items: center;
+}
+.nav-icon {
+    width: 15px;
+}
